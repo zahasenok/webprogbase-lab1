@@ -1,0 +1,65 @@
+body {
+    background-color: greenyellow;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 75px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+#usertable {
+    background-color: ghostwhite;
+}
+
+#sitename {
+    display: block;
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 90px 15px;
+    text-decoration: none;
+}
+
+#Welcome {
+    color: yellow;
+    list-style-type: none;
+    margin: 0;
+    padding: 70px;
+    overflow: hidden;
+    background-image: url("../images/GTWall.jpg");
+    background-repeat: repeat-x;
+    background-size: 400px 200px;
+}
+
+.bordered {
+    border: 3px solid whitesmoke;
+}
+
+#aboutsite {
+    color: whitesmoke;
+    list-style-type: none;
+    margin: 0;
+    padding: 70px;
+    overflow: hidden;
+    background-color: #111;
+    background-size: 400px 200px;
+}
