@@ -23,7 +23,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #333;
 }
 
 #usertable {
@@ -35,12 +35,12 @@ li a:hover {
     background-color: red;
     color: black;
     text-align: center;
-    padding: 90px 15px;
+    padding: 92px 15px;
     text-decoration: none;
 }
 
 #Welcome {
-    color: blue;
+    color: wheat;
     list-style-type: none;
     margin: 0;
     padding: 70px;
@@ -60,6 +60,35 @@ li a:hover {
     margin: 0;
     padding: 70px;
     overflow: hidden;
-    background-color: #111;
-    background-size: 400px 200px;
+    background-color: #333;
+    background-size: cover;
+}
+
+.Song {
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+    letter-spacing: 3px;
+    line-height: 30px;
+    width: 100%;
+    background-color: #333;
+    background-size: cover;
+}
+
+.User {
+    color: whitesmoke;
+    height: 400px;
+    word-spacing: 5px;
+    background-color: #333;
+    border: 3px solid whitesmoke;
+    line-height: 30px;
+    background-size: 400px 1200px;
+}
+
+.userabout {
+    color: whitesmoke;
+    font-style: oblique;
+    font-size: 30px;
+    word-spacing: 5px;
+    line-height: 60px;
+    margin: 10px 20px;
 }
